@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root {
+    --bg-color: #F2EBE9;
+    --primary: #FFA500;
+    --text: #1B1A17;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+    color: var(--text);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin: 40px auto;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+
+.links a ul {
+    font-size: 1.4rem;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    line-height: 1.8;
+}
+
+.gif {
+    border-radius: 8px;
+}
+
+.links {
+    display:flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items: center;
+}
